@@ -4,7 +4,8 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
-  extends: 'airbnb-base',
+  plugins: ['ember'],
+  extends: ['airbnb-base', 'plugin:ember/recommended'],
   env: {
     browser: true
   },
